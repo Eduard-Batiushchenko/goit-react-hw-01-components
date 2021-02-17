@@ -3,10 +3,10 @@ import SingleStat from './SingleStat/SingleStat';
 import statics from './statistical-data.json';
 import style from './Statistics.module.css';
 
-const Statistics = () => {
+const Statistics = ({ title }) => {
   return (
     <section className="statistics">
-      <h2 className={style.title}>Upload stats</h2>
+      {title && <h2 className={style.title}>{title}</h2>}
       <ul className={style.list}>
         {statics.map(stat => {
           return <SingleStat key={stat.id} {...stat} />;

@@ -9,7 +9,7 @@ function App() {
   return (
     <Container>
       <Profile />
-      <Statistics />
+      <Statistics title="Upload stats" />
       <FriendList />
       <TransactionHistory />
     </Container>
