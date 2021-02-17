@@ -1,0 +1,10 @@
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  padding: 10px;
+}
+
+.item:nth-child(even) {
+  background-color: wheat;
+}

@@ -1,0 +1,14 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.transactionsTable {
+  display: grid;
+  border: 1px solid grey;
+}
+
+.head {
+  padding: 10px;
+  background-color: aqua;
+}

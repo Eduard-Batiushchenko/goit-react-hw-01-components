@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0px 0px 2px 2px rgba(34, 60, 80, 0.2);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.online {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.offline {
+  composes: online;
+  background-color: red;
+}

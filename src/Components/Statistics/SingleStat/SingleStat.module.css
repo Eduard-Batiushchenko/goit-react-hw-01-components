@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+.label {
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-size: 19px;
+}
